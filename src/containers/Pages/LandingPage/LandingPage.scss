@@ -1,0 +1,20 @@
+@use '../../../partials/Colors' as Colors;
+
+.landingPage {
+    &__header {
+        position: absolute;
+        top: 0;
+        width: -webkit-fill-available;
+        &__name {
+            &__t1 {
+                color: Colors.$black;
+            }
+            &__t2 {
+                color: Colors.$green;
+            }
+        }
+        &__tag {
+
+        }
+    }
+}

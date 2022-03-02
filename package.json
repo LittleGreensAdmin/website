@@ -1,0 +1,46 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^13.5.0",
+    "dotenv": "^16.0.0",
+    "node-sass": "^7.0.1",
+    "react": "^17.0.2",
+    "react-app-rewire-alias": "^1.1.7",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.0",
+    "sass": "^1.49.9",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "set NODE_ENV=development && react-app-rewired start",
+    "build:dev": "react-app-rewired build",
+    "build:prod": "react-app-rewired build",
+    "build": "echo \"Please use build:dev or build:prod \" && exit 1",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
